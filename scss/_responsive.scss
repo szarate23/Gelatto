@@ -1,0 +1,48 @@
+@media (min-width: 320px) {
+  img {
+    width: 54%;
+  }
+  #helados, #heladosfondo  {
+    width: 88%;
+  }
+  .abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .form {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  img {
+    width: auto;
+  }
+  .sociales a {
+    color: $colortexto;
+    font-size: 100px !important;
+    margin: 40px !important;
+    align-self: center;
+  }
+  #helados, #heladosfondo {
+    width: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  #heladosfondo {
+    width: 52%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $colorfondo;
+}
+
+.header_logo {
+  text-align: center;
+  padding-left: 20px;
+}

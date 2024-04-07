@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap");
+/*font-family: 'Noto Serif Balinese', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif Balinese", serif;
+}
+
+/*font-family: 'Noto Serif Balinese', serif;*/
+/*.lista {
+  background-color: rgb(221, 221, 221);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 0;
+}*/
+/*.navbar-nav{
+  float: left; 
+  margin: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  position: relative;
+}*/
+.navbar {
+  background-color: rgb(221, 221, 221) !important;
+}
+
+.nav-item {
+  text-align: justify;
+}
+
+.lista a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.lista a:hover {
+  background-color: rgb(5, 201, 201);
+  padding: 20px 20px;
+}
+
+.container-principal {
+  background-color: rgb(173, 255, 255);
+  padding-top: 35px;
+  padding-right: 21px;
+  padding-bottom: 71px;
+  padding-left: 21px;
+  text-align: center;
+}
+
+.container-sabores {
+  background-color: rgb(173, 255, 255);
+  padding-top: 35px;
+  padding-right: 21px;
+  padding-bottom: 71px;
+  padding-left: 21px;
+  text-align: center;
+  background-image: url(../images/helados.png);
+}
+
+.margen-principal {
+  background-color: rgb(5, 201, 201);
+  padding: 80px;
+}
+
+.container-secundario {
+  background-color: rgb(173, 255, 255);
+  padding: 80px;
+  text-align: center;
+}
+
+.margen-secundario {
+  background-color: rgb(5, 201, 201);
+  padding: 80px;
+}
+
+.sociales a {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  box-shadow: 2px 2px 5px;
+  border-radius: 50px;
+}
+
+.container-secundario h2, .container-principal h1 {
+  padding: 20px;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  background-color: rgb(5, 201, 201);
+  margin: 15px;
+}
+.btn:hover {
+  color: #fff;
+  background-color: rgb(111, 204, 204);
+}
+
+.form {
+  margin: auto;
+  width: 200px;
+}
+
+#lomasmap, #lanusmap, #escaladamap {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#helados {
+  border-radius: 35px;
+}
+
+#lomasimg, #escaladaimg, #lanusimg {
+  border-radius: 150px;
+}
+
+#captchaBackground {
+  height: auto;
+  width: auto;
+  background-color: #2d3748;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#captchaHeading {
+  color: #ffffff;
+}
+
+#captcha {
+  height: 80%;
+  width: 80%;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: auto;
+  display: block;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#submitButton {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(10, 231, 255);
+  border: 0px;
+  font-weight: bold;
+}
+
+#refreshButton {
+  background-color: rgb(10, 231, 255);
+  border: 0px;
+  font-weight: bold;
+}
+
+#textBox {
+  height: 25px;
+}
+
+.incorrectCaptcha {
+  color: #FF0000;
+}
+
+.correctCaptcha {
+  color: #7FFF00;
+}
+
+footer {
+  background-color: rgb(173, 255, 255);
+  text-align: center;
+  width: auto;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.linksexternos {
+  color: rgb(0, 0, 0);
+  font-size: 43px;
+  margin: 0 18px;
+  padding: 20px;
+  align-self: center;
+}
+
+.redes a {
+  color: rgb(0, 0, 0);
+  width: 100px;
+  padding: 10px;
+}
+
+@media (min-width: 320px) {
+  img {
+    width: 54%;
+  }
+  #helados, #heladosfondo {
+    width: 88%;
+  }
+  .abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .form {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  img {
+    width: auto;
+  }
+  .sociales a {
+    color: rgb(0, 0, 0);
+    font-size: 100px !important;
+    margin: 40px !important;
+    align-self: center;
+  }
+  #helados, #heladosfondo {
+    width: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  #heladosfondo {
+    width: 52%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(5, 201, 201);
+}
+
+.header_logo {
+  text-align: center;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
